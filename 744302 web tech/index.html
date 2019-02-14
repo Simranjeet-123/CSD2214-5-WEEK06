@@ -4,9 +4,22 @@
     <meta charset="utf-8" />
     <title>_744302_web_tech</title>
     <link href="css/default.css" rel="stylesheet" />
+    <script>
+        function addNumbers(CountUpTo) {
+            sum = 0;
+            for (int i = 0; i < CountUpTo; i++)
+            {
+                sum += i;
+            }
+            return sum;
+        }
+    </script>
 </head>
 <body>
     <div>Content goes here!</div>
-    <script src="js/main.js"></script>
+    <script>
+        var input = prompt("input number");
+        document.write(addNumbers(input));
+    </script>
 </body>
 </html>
